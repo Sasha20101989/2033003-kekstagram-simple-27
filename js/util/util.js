@@ -9,6 +9,7 @@ const verifyStringLength = (string, minStringLength, maxStringLength) => {
   return string.length >= minStringLength && string.length <= maxStringLength || false;
 };
 
+
 const getRandomArrayElement = (elements) => elements[Math.floor(Math.random() * elements.length)];
 
 const addEventListeners = (elements) => {
